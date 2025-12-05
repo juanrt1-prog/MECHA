@@ -1,19 +1,20 @@
 package com.example.mecha
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.example.mecha.models.Conductor
-import com.example.mecha.models.Vehiculo
 import org.json.JSONArray
 import org.json.JSONObject
+
 //juan correccion
 class RegistrarConductorFragment : Fragment(R.layout.registrar_conductor_fragment) {
 
